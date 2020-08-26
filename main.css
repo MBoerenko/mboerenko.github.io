@@ -1,0 +1,155 @@
+/* [ON BIG SCREEN] */
+/* Wrapper */
+.navbar {
+  width: 100%;
+  background: teal;
+  top: 0;
+  color: lightgray;
+  position
+}
+.nav-link {
+  color: lightgray;
+  font-size:1.5vw;
+  padding: 16px;
+  top: 0;
+}
+.navbarDropdown {
+  color: lightgray;
+  top: 0;
+}
+.navbar-header {
+  display: inline-block;
+  top: 0;
+}
+
+.navbar-brand {
+  color:lightgray;
+  font-size:1.5vw;
+}
+.nav {
+  color:lightgray;
+  top: 0;
+}
+
+.navbar-left {
+  display:left;
+  top: 0;
+
+}
+
+.navbar-right {
+  display:right;
+  top: 0;
+
+}
+@media only screen and (min-width: 900px) {
+  .navbar-toggler {
+    display:none;
+  }}
+
+  .fa-1x {
+    font-size: 1.8rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+
+  }
+  .dropbtn {
+  background-color: teal;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: teal;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+    font-size:1vw;
+
+}
+
+.dropdown-content a {
+  color: teal;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+.dropdown-content a:hover {background-color: white; }
+.dropdown:hover .dropdown-content {display: block; }
+.dropdown:hover .dropbtn {background-color: grey;}
+
+body {
+  background-color: gainsboro;
+}
+img {
+float: left;
+height: 50%;
+width: 50%;
+}
+.img2 {
+float: left;
+height: 40%;
+width: 40%;
+margin: 10px 20px 10px 30px;
+}
+.container {
+  float:left;
+  width: 50%;
+  background-color: white;
+  margin: 5%;
+
+}
+.container1 {
+  float:left;
+  width: 30%;
+  background-color: white;
+  margin-right: 5%;
+  margin-top: 5%;
+
+}
+
+h1 {
+  color:#45B39D;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+  font-size: 2vw;
+  border-bottom: 1px solid lightgray;
+  margin: 10px 10px 10px 10px;
+}
+h2 {
+  color:#45B39D;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+  font-size:1vw;
+  border-bottom: 1px solid lightgray;
+  margin: 10px 20px 10px 20px;
+}
+p {
+  color: #0E6655;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4px 16px 0 16px;
+  text-align: justify;
+}
+@media only screen and (max-width: 1260px) {
+.container {
+width:90%;
+}}
+@media only screen and (max-width: 1260px) {
+.container1 {
+width:90%;
+margin: 5%;
+}}
+

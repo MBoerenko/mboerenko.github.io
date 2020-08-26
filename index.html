@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Weather Landing Page</title>
+  <meta name="author" content="Marianne Boerenko">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-light light-blue lighten-4">
+    <!-- Collapse button -->
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="white-text"><i
+    class="fas fa-bars fa-lg py-1 text-white"></i></span></button>
+
+<!-- Collapsible content -->
+<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand active" href="index.html">Latitude</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots 
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="MaxTemperature.html">Max Temperatures</a></li>
+          <li><a href=Humidity.html>Humidity</a></li>
+          <li><a href="Cloudiness.html">Cloudiness</a></li>
+          <li><a href="Wind Speed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="Comparisons.html">Comparisons</a></li>
+      <li><a href="Data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <div class="container">
+    <div class="row-fluid">
+      <div class='col img-responsive'>
+        <h1>Summary: Latitude vs. X</h1>
+        <img src="img/Fig1.png" alt="Summary Chart">
+        <p>The purpose of this project was to prove the answer to the fundamental question: “What’s the weather like as
+          we approach the equator?” Using the weather of over 500 cities across the world of varying distances from the
+          equator, a representative model of weather across world cities was created.
+          First, scatter plots were developed to compare the latitude of the cities to the max temperature, humidity,
+          cloudiness and wind speed. The latitude vs maximum temperature plot showed that the generally the maximum
+          temperature increases the closer the latitude is to 0 but there was little to no association between the
+          Latitude and the Humidity, Cloudiness or Wind Speeds.
+          Secondly, using linear regression the cities were separated between the Northern and Southern Hemispheres and
+          plotted again. Both hemispheres vs maximum temperatures show that there is a similar linear regression for
+          both hemispheres. Therefore, the latitude has a significant association with the maximum temperature. Latitude
+          vs humidity show that there is a similar linear regression for both hemispheres. There appears to be more of
+          an association in the two variables in the southern hemisphere. While the southern and northern latitude vs
+          Cloudiness linear regressions are very similar, there does not appear to be any association between the
+          latitude and cloudiness in either hemisphere. The southern and northern vs windspeed show that there is a very
+          similar linear regression for both hemispheres. There appears to be more of an association in the two
+          variables in the northern hemisphere.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container1">
+    <div class="row-fluid">
+      <div class="col img-responsive">
+        <h2>Visualizations</h2>
+      </div>
+      <div class="column">
+        <a href="MaxTemperature.html">
+          <img src="img/Fig1.png" class="img2" alt="Max Temperature">
+        </a>
+        <a href="Humidity.html">
+          <img src="img/Fig2.png" class="img2" alt="Cloudiness">
+        </a>
+      </div>
+
+      <div class="column">
+        <a href="Cloudiness.html">
+          <img src="img/Fig3.png" class="img2" alt="Humidity">
+        </a>
+        <a href="Wind Speed.html">
+          <img src="img/Fig4.png" class="img2" alt="Wind Speed">
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
